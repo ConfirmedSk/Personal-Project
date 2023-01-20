@@ -1,1 +1,1 @@
-# Personal-Proejct
+# Personal-Project
