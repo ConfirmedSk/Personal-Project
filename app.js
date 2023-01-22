@@ -22,10 +22,5 @@ function monthGetter(m) {
 	return months[m];
 }
 
-console.log(day);
-console.log(year);
-console.log(monthGetter(date.getMonth()));
-
 const node = document.getElementById("time");
 node.innerHTML = `${monthGetter(date.getMonth())} ${day}, ${year}`;
-document.getElementById("node").appendChild(node);
