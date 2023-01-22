@@ -55,10 +55,19 @@
 	font-family: "Courier New", Courier, monospace;
 	color: rgb(83, 14, 83);
 	border-bottom: 1px solid rgba(123, 0, 160, 0.651);
+	padding-top: 15px;
 }
 
 h5 {
 	color: rgb(83, 14, 83);
 	font-weight: 600;
 	font-family: "Courier New", Courier, monospace;
+}
+
+#time {
+	font-size: 12px;
+	font-style: italic;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: blue;
 }
