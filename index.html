@@ -9,7 +9,6 @@
 			* {
 				margin: 0;
 				padding: 0;
-				background: rgba(233, 159, 255, 0.863);
 			}
 
 			.item1,
@@ -18,16 +17,16 @@
 			.item4,
 			.item5,
 			.item6 {
-				box-shadow: 3px 3px;
+				box-shadow: 3px 3px rgba(123, 0, 160, 0.24);
 				width: 250px;
-				margin-left: 10%;
-				margin-top: 2%;
+				margin: 2%;
+				margin-top: 3%;
 				border-style: solid;
-				border-color: rgba(123, 0, 160, 0.24);
+				border-color: rgba(123, 0, 160, 0.651);
 				border-width: 2px;
 				border-radius: 10%;
 				padding: 2%;
-				background-color: rgb(203, 203, 255);
+				background-color: rgba(146, 206, 255, 0.993);
 			}
 
 			.item1,
@@ -35,7 +34,7 @@
 			.item3,
 			.item4,
 			.item5,
-			.item6 > p {
+			.item6 > h5 {
 				text-align: center;
 			}
 
@@ -49,53 +48,67 @@
 				flex-direction: row;
 				flex-wrap: wrap;
 				justify-content: center;
-				width: 80%;
+				width: 100%;
 				align-content: center;
+				background-image: linear-gradient(
+					to bottom right,
+					rgba(95, 183, 255, 0.877),
+					rgb(223, 0, 223)
+				);
 			}
 
 			#title {
 				text-align: center;
+				background: rgba(146, 206, 255, 0.993);
+				font-family: "Courier New", Courier, monospace;
+				color: rgb(83, 14, 83);
+			}
+
+			h5 {
+				color: rgb(83, 14, 83);
+				font-weight: 600;
+				font-family: "Courier New", Courier, monospace;
 			}
 		</style>
 		<title>Personal Project</title>
 	</head>
 	<body>
 		<div id="title">
-			<h1>Life and Times</h1>
+			<h1>Life of Gouled</h1>
 		</div>
 		<div id="container">
 			<div class="item1">
 				<img src="./Assets/Gouled 1.png" alt="" />
-				<p>Gouled First Picture</p>
+				<h5>Gouled First Picture</h5>
 			</div>
 			<div class="item2">
 				<img src="./Assets/Gouled 2.png" alt="" />
-				<p>Gouled Second Picture</p>
+				<h5>Gouled Second Picture</h5>
 			</div>
 			<div class="item3">
 				<img src="./Assets/Gouled 3.png" alt="" />
-				<p>Gouled Third Picture</p>
+				<h5>Gouled Third Picture</h5>
 			</div>
 			<div class="item4">
 				<img
 					src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fthesource.com%2Fwp-content%2Fuploads%2F2018%2F02%2Fbob.jpg&f=1&nofb=1&ipt=52958b03ca6ac3d1e2a4d8b2c33c96b35f315921b062e97fef19b7b29155bacc&ipo=images"
 					alt=""
 				/>
-				<p>Bob Marley 1</p>
+				<h5>Bob Marley 1</h5>
 			</div>
 			<div class="item5">
 				<img
 					src="https://africhroyale.com/wp-content/uploads/2020/08/bob-marley.jpg"
 					alt=""
 				/>
-				<p>Bob Marley 2</p>
+				<h5>Bob Marley 2</h5>
 			</div>
 			<div class="item6">
 				<img
 					src="https://i.pinimg.com/originals/e7/0f/db/e70fdba3432f03afdeefdf40db2f84ff.jpg"
 					alt=""
 				/>
-				<p>Ringo Drummer (Beatles)</p>
+				<h5>Ringo Drummer (Beatles)</h5>
 			</div>
 		</div>
 		<script src="./Scripts/app.js"></script>
