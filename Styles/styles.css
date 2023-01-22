@@ -2,3 +2,26 @@
 	margin: 0;
 	padding: 0;
 }
+
+.item1,
+.item2,
+.item3 {
+	width: 250px;
+	padding: 20px;
+}
+
+#container img {
+	width: 250px;
+}
+
+#container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 80%;
+}
+
+#title {
+	text-align: center;
+}
