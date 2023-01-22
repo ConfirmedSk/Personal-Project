@@ -11,13 +11,12 @@
 .item6 {
 	box-shadow: 3px 3px 5px rgba(123, 0, 160, 0.24);
 	width: 250px;
-	margin: 2%;
-	margin-top: 3%;
+	margin: 3%;
 	border-style: solid;
 	border-color: rgba(123, 0, 160, 0.651);
-	border-width: 1px;
+	border-width: 2px;
 	border-radius: 10%;
-	padding: 2%;
+	padding: 3%;
 	background-color: rgba(146, 206, 255, 0.993);
 }
 
@@ -31,7 +30,10 @@
 }
 
 #container img {
-	width: 250px;
+	width: 100%;
+	border-style: solid;
+	border-color: rgba(123, 0, 160, 0.651);
+	border-width: 2px;
 	border-radius: 10%;
 }
 
