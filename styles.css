@@ -58,6 +58,12 @@
 	padding-top: 15px;
 }
 
+#title h1 {
+	text-decoration: underline;
+	text-decoration-style: double;
+	text-decoration-thickness: 0.09rem;
+}
+
 h5 {
 	color: rgb(83, 14, 83);
 	font-weight: 600;
@@ -70,4 +76,13 @@ h5 {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	color: blue;
+}
+
+.item1 img,
+.item2 img,
+.item3 img,
+.item4 img,
+.item5 img,
+.item6 img {
+	border: 0.3px solid rgb(83, 14, 83);
 }
