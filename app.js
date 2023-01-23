@@ -23,4 +23,6 @@ function monthGetter(m) {
 }
 
 const node = document.getElementById("time");
-node.innerHTML = `${monthGetter(date.getMonth())} ${day}, ${year}`;
+const currentDate = `${monthGetter(date.getMonth())} ${day}, ${year}`;
+
+node.append(currentDate);
