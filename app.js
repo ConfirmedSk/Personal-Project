@@ -1,3 +1,4 @@
+// Get Date vv
 const date = new Date();
 
 const year = date.getFullYear();
@@ -26,3 +27,4 @@ const node = document.getElementById("time");
 const currentDate = `${monthGetter(date.getMonth())} ${day}, ${year}`;
 
 node.append(currentDate);
+// Get Date ^^
